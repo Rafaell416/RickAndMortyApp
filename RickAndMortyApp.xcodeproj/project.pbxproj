@@ -26,6 +26,7 @@
 		05C0DD972B8D8AC200484C02 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0DD962B8D8AC200484C02 /* RMService.swift */; };
 		05C0DD992B8D8B2B00484C02 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0DD982B8D8B2B00484C02 /* RMRequest.swift */; };
 		05C0DD9B2B8D8E3900484C02 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C0DD9A2B8D8E3900484C02 /* RMEndpoint.swift */; };
+		05D1D4D92B92D7C000999F36 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1D4D82B92D7C000999F36 /* RMGetAllCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		05C0DD962B8D8AC200484C02 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		05C0DD982B8D8B2B00484C02 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		05C0DD9A2B8D8E3900484C02 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		05D1D4D82B92D7C000999F36 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		057937222B89BF94000EADB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05D1D4D72B92D79900999F36 /* APIResponseTypes */,
 				05AE03E62B8E9BDB00925C28 /* DataTypes */,
 			);
 			path = Models;
@@ -176,6 +179,14 @@
 				05AE03E92B8E9C2900925C28 /* RMSingleLocation.swift */,
 			);
 			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		05D1D4D72B92D79900999F36 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				05D1D4D82B92D7C000999F36 /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			files = (
 				05AE03E82B8E9C0100925C28 /* RMOrigin.swift in Sources */,
 				05AE03E32B8E9ACE00925C28 /* RMCharacterStatus.swift in Sources */,
+				05D1D4D92B92D7C000999F36 /* RMGetAllCharactersResponse.swift in Sources */,
 				057937332B89C227000EADB6 /* RMLocationViewController.swift in Sources */,
 				0579372E2B89C0FC000EADB6 /* RMEpisode.swift in Sources */,
 				057937122B89B265000EADB6 /* RMTabBarController.swift in Sources */,
